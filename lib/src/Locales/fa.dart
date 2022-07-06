@@ -26,4 +26,6 @@ const fa = {
   'url': ':name یک آدرس معتبر وبسایت نیست',
   'iran_national_code': ":code معتبر نیست",
   'iran_mobile': ':name شماره موبایل صحیح نیست',
+  'indonesia_mobile': ':name نام نامعتبر',
+  'indonesian_date': ':name قالب نامعتبر است'
 };

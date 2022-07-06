@@ -26,4 +26,6 @@ const vi = {
   'url': ':name không phải là một url hợp lệ',
   'iran_national_code': ":code không hợp lệ",
   'iran_mobile': ':name dữ liệu không hợp lệ',
+  'indonesia_mobile': ':name tên không hợp lệ',
+  'indonesian_date': ':name không hợp lệ'
 };

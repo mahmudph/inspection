@@ -26,4 +26,6 @@ const en = {
   'url': ':name is not a valid url',
   'iran_national_code': ":code is not valid",
   'iran_mobile': ':name not valid',
+  'indonesia_mobile': ':name not valid mobile number',
+  'indonesian_date': ':name format is invalid'
 };
