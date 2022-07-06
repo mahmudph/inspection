@@ -1,5 +1,6 @@
 import 'package:inspection/src/Locales/en.dart';
 import 'package:inspection/src/Locales/fa.dart';
+import 'package:inspection/src/Locales/id.dart';
 import 'package:inspection/src/Locales/vi.dart';
 
 // Translate rule's custom messages with locale code
@@ -12,6 +13,7 @@ class Translator {
     dictionary!['en'] = en;
     dictionary!['fa'] = fa;
     dictionary!['vi'] = vi;
+    dictionary!['id'] = id;
   }
 
   // Translate method
@@ -21,7 +23,7 @@ class Translator {
     if (dictionary![locale] != null) if (dictionary![locale][code] != null)
       mainSentence = dictionary![locale][code];
 
-    variables!.forEach((index,value) {
+    variables!.forEach((index, value) {
       index = index ?? '';
       value = value ?? '';
       mainSentence = mainSentence.replaceAll(':' + index, value);

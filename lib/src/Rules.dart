@@ -6,6 +6,8 @@ import 'package:inspection/src/Rules/EndWith.dart';
 import 'package:inspection/src/Rules/HaveAlpha.dart';
 import 'package:inspection/src/Rules/Hex.dart';
 import 'package:inspection/src/Rules/IP.dart';
+import 'package:inspection/src/Rules/IndonesianDate.dart';
+import 'package:inspection/src/Rules/IndonesianMobile.dart';
 import 'package:inspection/src/Rules/IranNationalCode.dart';
 import 'package:inspection/src/Rules/Max.dart';
 import 'package:inspection/src/Rules/Min.dart';
@@ -83,6 +85,10 @@ class Rules {
         return IranNationalCode(inspectionCase).stringValidation();
       case 'iran_mobile':
         return IranMobile(inspectionCase).stringValidation();
+      case 'indonesian_mobile':
+        return IndonesiaMobile(inspectionCase).stringValidation();
+      case 'indonesian_date':
+        return IndonesianDate(inspectionCase).stringValidation();
     }
   }
 }
